@@ -59,14 +59,13 @@
 #status-picker.menu-1QACrS .item-1OdjEX:not(#status-picker-custom-status)#status-picker-online .statusItem-2hiCNB, .sidebar-nqHbhN [aria-controls].item-3XjbnG:before{
 	background-color: var(--interactive-normal);
 }
-.sidebar-1tnWFu .name-3BUDLf{
-	color: linear-gradient(to left, transparent, #000 20px) !important;
-}
+
+/* titles in settings */
 .sidebar-nqHbhN .header-2Kx1US{
 	color: var(--interactive-active) !important;
 	text-transform: uppercase;
 }
-
+/* theme icons in theme settings */
 .bd-addon-header .bd-icon{
 	fill: var(--interactive-active);
 }
@@ -77,7 +76,7 @@
 }
 /* icons on top like pin, member list */
 .clickable-ZD7xvu .icon-2xnN2Y:hover{
-	color: rgba(var(--interactive-active), 0.1);
+    color: var(--interactive-active);
 }
 /* icons next to pfp bottom left */
 .container-YkUktl .button-12Fmur:hover{
@@ -89,9 +88,17 @@
 	color: var(--interactive-active);
 	text-transform: capitalize !important;
 }
+/* fuck these role icons */
 .roleIcon-3-WL_I{
 	display: none;
 }
+/* call timer color */
 .voiceTimer{
 	color: var(--interactive-active);
 }
+/* changed emoji button in chatbox corner */
+.sprite-2lxwfc{
+  background:rgb(102, 102, 102) !important;
+  border-radius: 50%;
+}
+
