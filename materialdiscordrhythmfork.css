@@ -6,7 +6,7 @@
 	--accent-lightness: 73%;
 	--accent-text-color: #fff;
 	--accent-button-action: #fff; /*	-	*/
-	--interactive-normal: #fff !important;
+	--interactive-normal: #A486EE !important;
 	--interactive-active: #dbccff;
 	--avatar-radius: 50%; /*	-	*/
 	--tooltip-color: rgb(61, 49, 92);
@@ -93,5 +93,5 @@
 	display: none;
 }
 .voiceTimer{
-	color: #dbccff;
+	color: var(--interactive-active);
 }
