@@ -82,12 +82,6 @@
 .container-YkUktl .button-12Fmur:hover{
 	color: var(--interactive-active) !important;
 }
-/* category names and role names */
-.container-q97qHp,
-.membersGroup-2eiWxl{
-	color: var(--interactive-active);
-	text-transform: capitalize !important;
-}
 /* fuck these role icons */
 .roleIcon-3-WL_I{
 	display: none;
