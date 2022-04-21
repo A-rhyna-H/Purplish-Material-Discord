@@ -107,3 +107,108 @@
   content: "Alainah And Rhythm's ";
   font-weight: 700;
 }
+
+/* clearvision category header animation/style */
+.sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragAfter-1J_-1V .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragBefore-ei4h1m .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerUserOver-3woq86 .wrapper-1S43wv .name-3BUDLf{
+    color: color: var(--interactive-normal);
+}
+.name-3BUDLf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: color: var(--interactive-normal);
+    font-weight: 700;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    opacity: .7;
+}
+.container-q97qHp{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase !important;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    -webkit-box-flex: 1;
+    font-weight: 500;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.name-3BUDLf:before{
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to left, var(--interactive-normal) 50%, transparent);
+    margin-right: 5px;
+}
+.name-3BUDLf:after{
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, var(--interactive-normal) 50%, transparent);
+    margin-left: 5px;
+}
+.icon-3zI3d2{
+    display: none;
+}
+.clickable-2AoIYN{
+    cursor: pointer;
+}
+.name-3BUDLf:before{
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to left, var(--interactive-normal) 50%, transparent);
+    margin-right: 5px;
+}
+
+.selected-2TbFuo .name-3BUDLf:before{
+    display: none;
+}
+.selected-2TbFuo .name-3BUDLf:after{
+    display: none;
+}
+
+.wrapper-1S43wv{
+    padding-left: 10px;
+    padding-right: 0;
+    transition: all .3s ease-in-out;
+}
+.arrow-2HswgU{
+    transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+}
+.collapsed-2KOacR .name-3BUDLf:before,.collapsed-2KOacR .name-3BUDLf:after{
+    flex-grow:0;
+}
+.members-3WRCEx .membersGroup-2eiWxl{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #A486EE;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    transition: all .15s ease-in-out;
+    opacity: .85;
+}
+.members-3WRCEx .membersGroup-2eiWxl:before{
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background: linear-gradient(to left, var(--interactive-normal) 50%, transparent);
+    margin-right: 5px;
+}
+.members-3WRCEx .membersGroup-2eiWxl:after{
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background: linear-gradient(to right, var(--interactive-normal) 50%, transparent);
+    margin-left: 5px;
+}
