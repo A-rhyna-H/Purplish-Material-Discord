@@ -110,13 +110,13 @@
 
 /* clearvision category header animation/style */
 .sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragAfter-1J_-1V .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragBefore-ei4h1m .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerUserOver-3woq86 .wrapper-1S43wv .name-3BUDLf{
-    color: color: var(--interactive-normal);
+	color: var(--interactive-normal);
 }
 .name-3BUDLf{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: color: var(--interactive-normal);
+    color: var(--interactive-normal);
     font-weight: 700;
     text-align: center;
     transition: all .3s ease-in-out;
@@ -191,7 +191,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #A486EE;
+    color: var(--interactive-normal);
     font-size: 11px;
     font-weight: 700;
     text-align: center;
