@@ -73,7 +73,7 @@
 .userInfoSectionHeader-2mYYun,
 .base-21yXnu.muted-eZM05q,
 .headerText-3g1XK9{
-	color: var(--interactive-active);
+	color: var(--interactive-active) !important;
 }
 /* icons on top like pin, member list */
 .clickable-ZD7xvu .icon-2xnN2Y:hover{
