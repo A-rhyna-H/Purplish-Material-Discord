@@ -249,7 +249,8 @@
     line-height:40px;
     opacity:1;
 }
-.nameTag-sc-gpq * {
+.nameTag-sc-gpq *,
+.nameTag-sc-gpq:hover *{
     font-size:15px;
     transition: all .15s ease-in-out;
 }
