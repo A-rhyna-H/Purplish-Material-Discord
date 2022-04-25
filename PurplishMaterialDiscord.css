@@ -260,11 +260,12 @@
 /* channel names hover animation */
 .mainContent-20q_Hp:hover *{
   font-size: 18px;
-  transition: all .15s ease-in-out;
+  transition: all .1s ease-in-out;
   color: #fff;
 }
-mainContent-20q_Hp *{
-  transition: all .15s ease-in-out;
+.mainContent-20q_Hp *{
+  transition: all .1s ease-in-out;
+  color: #fff;
 }
 .actionIcon-2sw4Sl{
   display:none;
