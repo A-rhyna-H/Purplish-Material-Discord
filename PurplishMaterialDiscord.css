@@ -254,3 +254,6 @@
     font-size:15px;
     transition: all .15s ease-in-out;
 }
+.nameTag-sc-gpq *{
+    transition: all .15s ease-in-out;
+}
