@@ -98,11 +98,23 @@
 }
 
 /* title top left */
-.wordmark-2u86JB.wordmarkWindows-2dq6rw:before {
-  content: "Alainah And Rhythm's ";
-  font-weight: 700;
+.wordmark-2u86JB {
+    pointer-events: auto;
 }
-
+.wordmark-2u86JB.wordmarkWindows-2dq6rw::before {
+  	content: "Alainah And Rhythm's " !important;
+	font-weight: 700;
+}
+.wordmark-2u86JB.wordmarkWindows-2dq6rw::after{
+    content: "Discord" !important;
+}
+.wordmark-2u86JB.wordmarkWindows-2dq6rw:hover::before {
+    content: "I Love You A Lot " !important;
+}
+.wordmark-2u86JB.wordmarkWindows-2dq6rw:hover::after{
+    content: "Alainah" !important;
+    font-weight: 700;
+}
 /* clearvision category header animation/style */
 .sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragAfter-1J_-1V .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragBefore-ei4h1m .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerUserOver-3woq86 .wrapper-1S43wv .name-3BUDLf{
 	color: var(--interactive-normal);
@@ -271,4 +283,19 @@
 }
 .actionIcon-2sw4Sl{
   display:none;
+}
+/* category header and role header animation */
+.membersGroup-2eiWxl:hover *{
+  font-size: 12.5px;
+  transition: all .15s ease-in-out;
+}
+.membersGroup-2eiWxl *{
+  transition: all .15s ease-in-out;
+}
+.sidebar-1tnWFu .name-3BUDLf:hover *{
+  font-size: 15px;
+  transition: all .1s ease-in-out;
+}
+.sidebar-1tnWFu .name-3BUDLf *{
+  transition: all .1s ease-in-out;
 }
