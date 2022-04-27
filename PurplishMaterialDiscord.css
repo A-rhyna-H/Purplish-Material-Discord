@@ -299,3 +299,10 @@
 .sidebar-1tnWFu .name-3BUDLf *{
   transition: all .1s ease-in-out;
 }
+/* voice channel user count won't disappear */
+.channelInfo-3jN1ay{
+  transform: scale(0.8);
+}
+.iconVisibility-vptxma:hover .channelInfo-3jN1ay, .iconVisibility-vptxma:focus .channelInfo-3jN1ay, .iconVisibility-vptxma:focus-within .channelInfo-3jN1ay{
+  opacity: 1;
+}
