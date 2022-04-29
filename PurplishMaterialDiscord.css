@@ -303,6 +303,6 @@
 .channelInfo-3jN1ay{
   transform: scale(0.8);
 }
-.iconVisibility-vptxma:hover .channelInfo-3jN1ay, .iconVisibility-vptxma:focus .channelInfo-3jN1ay, .iconVisibility-vptxma:focus-within .channelInfo-3jN1ay{
-  opacity: 1;
+.containerDefault-YUSmu3.selected-2TbFuo .channelInfo-3jN1ay, .iconVisibility-vptxma:focus-within .channelInfo-3jN1ay, .iconVisibility-vptxma:focus .channelInfo-3jN1ay, .iconVisibility-vptxma:hover .channelInfo-3jN1ay{
+  display: block;
 }
