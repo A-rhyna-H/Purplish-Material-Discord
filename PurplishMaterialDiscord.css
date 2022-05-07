@@ -306,3 +306,13 @@
 .containerDefault-YUSmu3.selected-2TbFuo .channelInfo-3jN1ay, .iconVisibility-vptxma:focus-within .channelInfo-3jN1ay, .iconVisibility-vptxma:focus .channelInfo-3jN1ay, .iconVisibility-vptxma:hover .channelInfo-3jN1ay{
   display: block;
 }
+/* call button animation */
+.container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type{
+  transform: rotate(-130deg);
+  transition: all .5s;
+}
+.container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type:hover{
+  transform: rotate(0deg);
+  color: #ff7373;
+  transition: all .5s;
+}
