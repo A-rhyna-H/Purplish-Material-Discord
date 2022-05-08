@@ -307,11 +307,11 @@
   display: block;
 }
 /* call button animation */
-.container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type{
+.container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type svg{
   transform: rotate(-130deg);
   transition: all .5s;
 }
-.container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type:hover{
+.container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type:hover svg{
   transform: rotate(0deg);
   color: #ff7373;
   transition: all .5s;
