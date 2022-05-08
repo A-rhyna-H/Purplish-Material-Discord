@@ -318,10 +318,10 @@
 }
 /* user buttons jump on hover */
 .toolbar-3_r2xA a {display: none;}
-.button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
+.container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type:hover {animation: UserModalButtons 0.5s normal ease;}
   .container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
-  .button-12Fmur {transition: 0.2s;}
-  .button-12Fmur:hover {padding-bottom: 0px;transition: 0.2;}
+  .container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type {transition: 0.2s;}
+  .container-1zzFcN .flex-2S1XBF .button-12Fmur:last-of-type:hover {padding-bottom: 0px;transition: 0.2;}
   @keyframes UserModalButtons {
     0% {
       transform: translateY(0px);
