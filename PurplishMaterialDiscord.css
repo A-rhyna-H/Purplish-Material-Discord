@@ -357,3 +357,13 @@
 .addButtonIcon-3rJeaD{
   display: none;
 }
+/* chatbox icons (gif,sticker) and top bar icons (add friends to dm, show profile) */
+div.contents-3NembX.button-2fCJ0o.button-3BaQ4X{
+    display: none !important;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Show User Profile"] {
+    display: none !important;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"] {
+    display: none !important;
+}
